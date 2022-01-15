@@ -37,19 +37,6 @@ header div {
   color: #3a3a3a;
   margin-bottom: 20px;
 }
-/* .transition {
-  width: 100px;
-  height: 100px;
-  margin: 100px auto;
-  background: #e02c6d;
-  transition-property: width;
-  transition-delay: 1s;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in;
-}
-.transition:hover {
-  width: 250px;
-} */
 .btn {
   background-color: #e02c6d;
   padding: 14px 30px;
