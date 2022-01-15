@@ -37,7 +37,7 @@ header div {
   color: #3a3a3a;
   margin-bottom: 20px;
 }
-.transition {
+/* .transition {
   width: 100px;
   height: 100px;
   margin: 100px auto;
@@ -49,7 +49,7 @@ header div {
 }
 .transition:hover {
   width: 250px;
-}
+} */
 .btn {
   background-color: #e02c6d;
   padding: 14px 30px;
@@ -58,9 +58,16 @@ header div {
   color: white;
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
 }
 .fa-arrow-right {
   margin-left: 10px;
+  transition-property: width;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+}
+.fa-arrow-right:hover {
+  margin-left: 30px;
 }
 .banner-right {
   width: 50%;
