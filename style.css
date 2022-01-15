@@ -250,6 +250,9 @@ p {
   .banner-right img{
     width: 300px;
   }
+  .footer-text{
+    text-align: center;
+  }
    
  }
 
@@ -280,6 +283,9 @@ p {
   }
   .banner-right img{
     width: 405px;
+  }
+  .footer-text{
+    text-align: center;
   }
  }
 
